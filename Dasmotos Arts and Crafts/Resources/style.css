@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  font-family: helvetica;
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  background: url(./pattern.webp); 
+  background-size: cover;
+  display: block;
+  margin: 67px 0px;
+}
+
+h2 {
+  font-family: helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+}
+
+h3{
+  font-family: hevetica;
+  font-size: 18.72px;
+  font-weight: 700;
+  margin: 18.72px 0;
+}
+
+.prices{
+  font-family: helvetica;
+  font-weight: bold;
+  color: blue;
+}
+
+.brushes {
+  background-color: mediumspringgreen;
+  margin: 26.56px 0;
+}
+
+.frames{
+  background-color: lightcoral;
+  margin: 26.56px 0;
+}
+
+.paint{
+  background-color: skyblue;
+  margin: 26.56px 0;
+}
+
+p {
+  font-family: helvetica;
+}
