@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  background-color: beige;
+}
+
+body{
+  font-family: monospace, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.table{
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #000 ;
+  align-items: center;
+
+}
+
+.rows {
+  align-items: center;
+
+}
+
+h1{
+  color: #000;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
