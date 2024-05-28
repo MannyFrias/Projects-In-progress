@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetiva, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: #000000;
+  opacity: 0.9;
+  text-align: center;
+}
+
+a {
+  color: seashell;
+}
+
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+.flex-cont {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Header section */
+
+header {
+  width: 100%;
+  position: fixed;
+  border: 69px;
+  background-color: #000000;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+}
+header img {
+  height: 50px;
+  padding-left: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+/* Main section */
+
+#mission {
+  height: 700px;
+  background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-size: 100% 100%; /* Change this line */
+  background-repeat: no-repeat;
+  padding-top: 70px;
+  aspect-ratio: 16:9;
+}
+
+#mission .content {
+  margin: auto;
+  background-color: #000000;
+  width: 100%; 
+  text-align: center;
+}
+
+/* Store section */
+
+#store {
+  width: 100%;
+}
+
+#flex-cont-items {
+  height: 700px;
+  margin: 0px auto;
+  text-align: center; /* This will center the items */
+}
+
+.items {
+  display: inline-block; /* This will place the items next to each other */
+  margin: 10px;
+}
+
+.items img {
+  height: 300px;
+  max-width: 100%;
+}
+
+/* Locations section */
+
+.flex-cont-locations {
+  padding-top: 5px;
+}
+
+#locations {
+  background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  padding-top: 70px;
+  background-size: 100% 100%; /* Change this line */
+  background-repeat: no-repeat;
+}
+
+#locations .flex-cont {
+  margin: auto;
+  width: 1100px;
+}
+
+#locations h2 {
+  margin: 0;
+  padding: 10px;
+  display: block;
+  justify-content: center;
+}
+.locations {
+  opacity: 1;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: #000000;
+  flex-basis: 280px;
+  display: inline-block;
+  text-align: center;
+  text-wrap: wrap;
+  height: 300px;
+  width: 300px;
+  line-height: 60px;
+}
+
+/* Contact section */
+
+#contact {
+  height: 200px;
+}
+
+footer{
+  margin-left: 20px;
+  text-align: left;
+  padding-bottom: 10px;
+}
