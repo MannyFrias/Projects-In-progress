@@ -4,25 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
-    <title>{% block title %}News Web App{% endblock %}</title>
+    <title>News Web App</title>
 </head>
 <body>
-    <header>
-        <h1>News Web App</h1>
-        <nav>
-            <ul>
-                <li><a href="{{ url_for('home') }}">Home</a></li>
-                <li><a href="{{ url_for('login') }}">Login</a></li>
-                <li><a href="{{ url_for('register') }}">Register</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
+    <nav>
+        <a href="{{ url_for('news.news') }}">Home</a>
+        <a href="{{ url_for('auth.login') }}">Login</a>
+        <a href="{{ url_for('auth.register') }}">Register</a>
+    </nav>
+    
+    <div class="content">
         {% block content %}{% endblock %}
-    </main>
-    <footer>
-        <p>&copy; 2023 News Web App</p>
-    </footer>
+    </div>
+    
     <script src="{{ url_for('static', filename='js/main.js') }}"></script>
 </body>
 </html>

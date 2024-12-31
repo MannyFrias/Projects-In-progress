@@ -7,18 +7,20 @@
     <title>News Web App</title>
 </head>
 <body>
-    {% include 'base.html' %}
-    <div class="container">
-        <h1>Latest News Articles</h1>
-        <div class="news-articles">
-            {% for article in articles %}
-                <div class="article">
-                    <h2>{{ article.title }}</h2>
-                    <p>{{ article.content }}</p>
-                </div>
-            {% endfor %}
+    {% extends "base.html" %}
+
+    {% block content %}
+    <div class="articles">
+        {% for article in articles %}
+        <div class="article-card">
+            <h2>{{ article.title }}</h2>
+            <p>{{ article.description }}</p>
+            <p class="date">{{ article.date }}</p>
+            <a href="{{ article.link }}" target="_blank">Read more</a>
         </div>
+        {% endfor %}
     </div>
+    {% endblock %}
     <script src="{{ url_for('static', filename='js/main.js') }}"></script>
 </body>
 </html>
