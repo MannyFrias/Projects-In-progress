@@ -1,0 +1,6 @@
+{
+  "python.analysis.extraPaths": [
+    "./news-web-app- project/src",
+    "./news-web-app- project/src/news-web-app/src"
+  ]
+}
