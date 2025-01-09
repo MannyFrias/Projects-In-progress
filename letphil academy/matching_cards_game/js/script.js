@@ -18,10 +18,10 @@
     re render page 
 */ 
 
-const cards = [
+/* const cards = [
   src: '', 
   matched: 
   {}, 
 ] 
-
+*/ 
 const shuffeledcards = [] 
